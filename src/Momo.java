@@ -14,7 +14,7 @@ public class Momo {
 
         // check whether user wants to choose next day or continue on the current day.
         while (currentDay.equalsIgnoreCase("n") || currentDay.equalsIgnoreCase("c")){
-            System.out.println("budget: " + budget);
+            System.out.println(" momo 3: " + budget);
             List<Product> prods = new ArrayList<>();
 
             // we only check the remaining budget if the user choose to continue the current day.
